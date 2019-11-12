@@ -1,0 +1,33 @@
+*.pyc
+.cache
+.mypy_cache\
+.env
+/env
+
+/dist
+.coverage
+.pytest_cache/
+htmlcov/
+
+.DS_Store
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+selenium-debug.log
+
+# Google Keys
+travelvive*.json
+/keys/*.json
+/files/*
+
+# Editor directories and files
+.idea
+.vscode
+.requirements.bak
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*security-sgps.py
+*security_backend.py

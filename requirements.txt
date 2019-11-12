@@ -1,0 +1,17 @@
+google
+google-cloud
+google-api-core
+google-auth
+google-cloud-vision
+google-search-results
+googleapis-common-protos
+Flask
+Flask-Cors
+Flask-Uploads
+flask-restplus
+firebase-admin
+python-dotenv
+image
+keras==2.2.5
+tensorflow==1.15
+numpy
