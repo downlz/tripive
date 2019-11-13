@@ -42,7 +42,7 @@ class ImageAnalysisTensor(Resource):
     
     def get(self, resource_id):
         arr = ['taj.jpg','state.jpg','yos.jpg','waipio.jpg','owens.jpg','sonoma.jpg']
-        # model = tf.keras.applications.inception_v3.InceptionV3(include_top=True, weights='imagenet', input_tensor=None, input_shape=None, pooling=None, classes=1000)
+        model = tf.keras.applications.inception_v3.InceptionV3(include_top=True, weights='imagenet', input_tensor=None, input_shape=None, pooling=None, classes=1000)
         # model = tf.keras.models.load_model('./inception.h5')
         for xi in arr:
             path = os.path.abspath('files/' + xi)
