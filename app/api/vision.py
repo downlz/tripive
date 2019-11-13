@@ -266,7 +266,7 @@ def detect_landmarks(path):
 class SecureVision(Resource):
         def post(self, resource_id):
             data = {}
-            file_name = os.path.abspath('files/state.jpg')
+            file_name = os.path.abspath('files/waipio.jpg')
             
             # url = 'https://cdn.britannica.com/86/170586-050-AB7FEFAE/Taj-Mahal-Agra-India.jpg'
             # # image = Image.open(urllib.request.urlopen(url))

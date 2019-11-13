@@ -20,6 +20,7 @@ selenium-debug.log
 travelvive*.json
 /keys/*.json
 /files/*
+/app/api/*.h5
 
 # Editor directories and files
 .idea
